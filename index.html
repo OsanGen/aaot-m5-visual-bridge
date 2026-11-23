@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A six-scene conceptual visual demo of the Day-1 Readiness Desk for AAOT Module 5.">
+  <meta name="description" content="A visual walkthrough of the Day-1 Readiness Desk for AAOT Module 5.">
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="noindex">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <title>Day-1 Readiness Desk | AAOT Module 5</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
   <script defer src="app.js?v=2"></script>
 </head>
 <body>
@@ -25,37 +25,51 @@
     </div>
   </header>
   <main id="main" class="shell">
-    <article class="scene tone-blue" id="scene-1" aria-labelledby="title-1">
-      <header class="scene-heading"><h1 id="title-1">Less prompting. Same authority.</h1><p>How does configuration change the user&#x27;s instructions without changing authority?</p></header>
-      <div class="stage"><div class="comparison">
-      <section class="lane tone-blue">
-        <p class="overline">PART 1</p>
-        <h2>Build the operating rules</h2>
-        <div class="lane-objects">
-          <span class="asset-with-title"><span class="sticker "><img src="A003_policy_rulebooks.png" width="1024" height="768" alt="Stack of official rulebooks representing approved policy sources." draggable="false"><span class="sticker-fallback" hidden>Builder sources</span></span><span>Builder sources</span></span>
-          <div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>develop design</span></div></div>
-          <span class="asset-with-title"><span class="sticker "><img src="A004_configuration_binders.png" width="1024" height="768" alt="Four blank binders representing standing configuration modules." draggable="false"><span class="sticker-fallback" hidden>Proposed configuration</span></span><span>Proposed configuration</span></span>
+    <article class="scene simple-slide intro-slide tone-blue" id="intro" aria-labelledby="intro-title">
+      <div class="slide-split">
+        <div class="intro-copy">
+          <p class="overline">Visual demo</p>
+          <h1 id="intro-title">Inside the Day-1 Readiness Desk</h1>
+          <p>Before we run it live, follow one onboarding request through an AI assistant. You’ll see what guides the assistant, what it prepares, and where a person takes over.</p>
         </div>
-        <div class="lane-end"><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m0-6v12"/></svg><span>human acceptance required</span></div><strong>Human review</strong></div>
-      </section>
-      <figure class="desk-hero"><span class="sticker "><img src="A001_operations_desk_closed.png" width="1024" height="768" alt="Closed concierge operations desk, visual shorthand for the specialized onboarding workflow." draggable="false"><span class="sticker-fallback" hidden>Day-1 Readiness Desk</span></span><figcaption>Day-1 Readiness Desk</figcaption></figure>
-      <section class="lane tone-mint">
-        <p class="overline">PART 2</p>
-        <h2>Test the configured Project</h2>
-        <div class="lane-objects">
-          <span class="asset-with-title"><span class="sticker "><img src="A004_configuration_binders.png" width="1024" height="768" alt="Four blank binders representing standing configuration modules." draggable="false"><span class="sticker-fallback" hidden>Prepared reference cfg_v002</span></span><span>Prepared reference <code>cfg_v002</code></span></span>
-          <span class="asset-with-title"><span class="sticker "><img src="A005_employee_case_folder.png" width="1024" height="768" alt="Blank employee case folder representing current employee facts." draggable="false"><span class="sticker-fallback" hidden>Employee case</span></span><span>Employee case</span></span>
-          <span class="asset-with-title request-mini"><span class="sticker "><img src="A006_request_card.png" width="1024" height="768" alt="Blank clipboard for the current request, without completion or approval marks." draggable="false"><span class="sticker-fallback" hidden>Request card</span></span><span>Request card</span></span>
-        </div>
-        <div class="lane-end"><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>test prepared reference</span></div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>prepare review materials</span></div></div>
-      </section>
-    </div>
-    <div class="shared-boundary">
-      <div class="boundary-object"><span class="sticker "><img src="A009_review_packet_folder.png" width="1024" height="768" alt="Open review packet folder; six document inserts are separately constructed as editable native app shapes." draggable="false"><span class="sticker-fallback" hidden>Review-ready work</span></span><strong>Review-ready work</strong></div>
-      <div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m0-6v12"/></svg><span>requires human decision</span></div></div>
-      <div class="boundary-object"><span class="sticker "><img src="A010_human_review_gate.png" width="1024" height="768" alt="Human reviewer seated at an explicit manual review checkpoint." draggable="false"><span class="sticker-fallback" hidden>Human decision</span></span><strong>Human decision</strong></div>
-    </div>
-    <div class="detail-band"><p class="callout ">Slide example: Maya<br>Live walkthrough: Lena Ortiz</p><p class="definition"><strong>Functional agent:</strong> An assistant configured for one business workflow.</p><p class="callout ">Part 2 uses a prepared reference configuration.</p></div><p class="scene-basis"><span aria-hidden="true"></span>Conceptual comparison. Prepared v002 reference, not observed live output.</p></div>
+        <div class="slide-illustration"><span class="sticker"><img src="A001_operations_desk_closed.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Day-1 Readiness Desk</span></span></div>
+      </div>
+    </article>
+    <article class="scene simple-slide tone-blue" id="scene-1" aria-labelledby="scene-1-title">
+      <header class="scene-heading">
+        <h1 id="scene-1-title">Build the operating rules</h1>
+        <p>Part 1 of the live walkthrough</p>
+      </header>
+      <ol class="slide-flow two-steps">
+        <li><span class="sticker"><img src="A003_policy_rulebooks.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Builder sources</span></span>
+          <h2>Builder sources</h2><p>Describe the onboarding job and spell out company requirements.</p>
+        </li>
+        <li class="flow-arrow" aria-hidden="true"><svg viewBox="0 0 40 20" width="40" height="20" focusable="false"><path d="M2 10h34m-7-7 7 7-7 7"/></svg></li>
+        <li><span class="sticker"><img src="A004_configuration_binders.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Proposed configuration</span></span>
+          <h2>Proposed configuration</h2><p>Turns those requirements into reusable steps for the assistant.</p>
+        </li>
+      </ol>
+      <p class="slide-takeaway">A person reviews the proposed rules before they can be accepted.</p>
+    </article>
+    <article class="scene simple-slide tone-mint" id="scene-1-test" aria-labelledby="scene-1-test-title">
+      <header class="scene-heading">
+        <h1 id="scene-1-test-title">Try the configured assistant</h1>
+        <p>Part 2 of the live walkthrough</p>
+      </header>
+      <ol class="slide-flow">
+        <li><span class="sticker"><img src="A004_configuration_binders.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Prepared configuration</span></span>
+          <h2>Prepared configuration</h2><p>The reference version is <code>cfg_v002</code>.</p>
+        </li>
+        <li class="flow-arrow" aria-hidden="true"><svg viewBox="0 0 40 20" width="40" height="20" focusable="false"><path d="M2 10h34m-7-7 7 7-7 7"/></svg></li>
+        <li><span class="sticker"><img src="A005_employee_case_folder.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Lena Ortiz’s case</span></span>
+          <h2>Lena Ortiz’s case</h2><p>Use the prepared configuration on a sample employee request.</p>
+        </li>
+        <li class="flow-arrow" aria-hidden="true"><svg viewBox="0 0 40 20" width="40" height="20" focusable="false"><path d="M2 10h34m-7-7 7 7-7 7"/></svg></li>
+        <li><span class="sticker"><img src="A009_review_packet_folder.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Draft review packet</span></span>
+          <h2>Draft review packet</h2><p>Inspect the resulting materials.</p>
+        </li>
+      </ol>
+      <p class="slide-takeaway">The reference was prepared in advance of the live walkthrough. The course slides use Maya as their sample employee.</p>
     </article>
     <article class="scene tone-mint" id="scene-2" aria-labelledby="title-2">
       <header class="scene-heading"><h1 id="title-2">Three source roles. One request.</h1><p>Which material has authority to state requirements?</p></header>
@@ -79,49 +93,72 @@
     <div class="intake"><span class="sticker "><img src="A001_operations_desk_closed.png" width="1024" height="768" alt="Closed concierge operations desk, visual shorthand for the specialized onboarding workflow." draggable="false"><span class="sticker-fallback" hidden>Operations desk intake</span></span><strong>Operations desk intake</strong></div>
     <div class="detail-band"><p class="definition"><strong>Approved source:</strong> A named file allowed to establish company requirements.</p><p class="definition"><strong>Current case:</strong> Employee-specific facts for this run.</p><div><p class="callout ">Current work cannot rewrite standing rules.</p></div></div><p class="scene-basis"><span aria-hidden="true"></span>Illustrative sources, not live file-reading activity.</p></div>
     </article>
-    <article class="scene tone-yellow" id="scene-3" aria-labelledby="title-3">
-      <header class="scene-heading"><h1 id="title-3">Configuration stores the workflow.</h1><p>What did preconfiguration actually add?</p></header>
-      <div class="stage"><div class="workflow">
-      <div class="desk-view tone-blue">
-        <div class="desk-match">
-          <figure class="desk-before"><span class="sticker "><img src="A001_operations_desk_closed.png" width="1024" height="768" alt="Closed concierge operations desk, visual shorthand for the specialized onboarding workflow." draggable="false"><span class="sticker-fallback" hidden>Closed desk</span></span><figcaption>Closed desk</figcaption></figure>
-          <figure class="desk-after"><span class="sticker "><img src="A002_operations_desk_open.png" width="1024" height="768" alt="Matching open desk with internal shelves for the technical reveal." draggable="false"><span class="sticker-fallback" hidden>Open desk</span></span><figcaption>Open desk</figcaption></figure>
-        </div>
-        <div class="desk-inputs">
-          <span><span class="sticker "><img src="A003_policy_rulebooks.png" width="1024" height="768" alt="Stack of official rulebooks representing approved policy sources." draggable="false"><span class="sticker-fallback" hidden>Rulebook</span></span><span>Rulebook</span></span>
-          <span><span class="sticker "><img src="A004_configuration_binders.png" width="1024" height="768" alt="Four blank binders representing standing configuration modules." draggable="false"><span class="sticker-fallback" hidden>Configuration</span></span><span>Configuration</span></span>
-          <span><span class="sticker "><img src="A005_employee_case_folder.png" width="1024" height="768" alt="Blank employee case folder representing current employee facts." draggable="false"><span class="sticker-fallback" hidden>Current case</span></span><span>Current case</span></span>
-          <span><span class="sticker "><img src="A006_request_card.png" width="1024" height="768" alt="Blank clipboard for the current request, without completion or approval marks." draggable="false"><span class="sticker-fallback" hidden>Request card</span></span><span>Request card</span></span>
-        </div>
-        <div class="input-relationships"><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>establish requirements</span></div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>supply facts</span></div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>apply rules</span></div></div>
+    <article class="scene simple-slide tone-yellow" id="scene-3" aria-labelledby="scene-3-title">
+      <header class="scene-heading">
+        <h1 id="scene-3-title">Configuration stores the workflow</h1>
+        <p>Set the rules once so each request can start with the same guidance.</p>
+      </header>
+      <div class="slide-split">
+        <div class="slide-illustration"><span class="sticker"><img src="A002_operations_desk_open.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Open operations desk</span></span></div>
+        <dl class="slide-list">
+          <div><dt>Sources and evidence</dt><dd>Say which files can support a claim. Distinguish policy, case facts, conclusions drawn from sources, conflicts, and unknowns.</dd></div>
+          <div><dt>Required outputs</dt><dd>Specify which drafts the assistant should prepare.</dd></div>
+          <div><dt>Safeguards and stop points</dt><dd>Set what to hold, refuse, or escalate, and when to hand the work to a person.</dd></div>
+        </dl>
       </div>
-      <div class="workflow-map"><p class="definition"><strong>Standing configuration:</strong> Reusable workflow rules prepared before the request.</p><ol class="layers"><li class="layer tone-blue"><span class="sticker "><img src="A003_policy_rulebooks.png" width="1024" height="768" alt="Stack of official rulebooks representing approved policy sources." draggable="false"><span class="sticker-fallback" hidden>Rulebook</span></span><div><h3>SOURCE ROUTING</h3><p>Which file can support which claim?</p></div></li><li class="layer tone-mint"><span class="sticker "><img src="A007_evidence_tray_rack.png" width="1024" height="768" alt="Four empty tray locations for evidence sorting, with category labels provided natively by the app." draggable="false"><span class="sticker-fallback" hidden>Evidence trays</span></span><span class="sticker token"><img src="A008_evidence_token.png" width="1024" height="768" alt="Blank source document under a magnifier, representing traceable evidence rather than verified correctness." draggable="false"><span class="sticker-fallback" hidden>Evidence item</span></span><div><h3>EVIDENCE STATES</h3><p>Is it policy, a case fact, a derivation, a conflict or an unknown?</p></div></li><li class="layer tone-yellow"><span class="sticker "><img src="A009_review_packet_folder.png" width="1024" height="768" alt="Open review packet folder; six document inserts are separately constructed as editable native app shapes." draggable="false"><span class="sticker-fallback" hidden>Review packet</span></span><div><h3>OUTPUT CONTRACTS</h3><p>Which review materials must be produced?</p></div></li><li class="layer tone-pink"><span class="sticker "><img src="A004_configuration_binders.png" width="1024" height="768" alt="Four blank binders representing standing configuration modules." draggable="false"><span class="sticker-fallback" hidden>Configuration</span></span><div><h3>SAFEGUARDS</h3><p>What must be held, refused or escalated?</p></div></li><li class="layer tone-blue"><span class="sticker "><img src="A010_human_review_gate.png" width="1024" height="768" alt="Human reviewer seated at an explicit manual review checkpoint." draggable="false"><span class="sticker-fallback" hidden>Human decision</span></span><div><h3>STOP CONDITIONS</h3><p>Where must the work return to a person?</p></div></li></ol>
-        <p class="definition evidence-definition"><strong>Evidence state</strong> names the basis or status of a claim. An <strong>explicit derivation</strong> draws a conclusion from named inputs. The exact module labels differ.</p>
-      </div>
-    </div>
-    <div class="workflow-route">
-      <div class="route-main">
-        <strong>Approved sources + Current case + Configured workflow</strong>
-        <div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>prepare drafts</span></div><strong>prepare -&gt; Review-ready outputs</strong></div>
-        <div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m0-6v12"/></svg><span>requires human decision</span></div><strong>require -&gt; Human decision</strong></div>
-      </div>
-      <div class="route-stop tone-pink"><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m0-6v12"/></svg><span>external action excluded</span></div><span class="sticker "><img src="A011_locked_service_doors.png" width="1024" height="768" alt="Three locked service doors representing sending, approving, and provisioning outside the demo scope." draggable="false"><span class="sticker-fallback" hidden>Locked service doors</span></span><div>Send / approve / provision<br>Outside this demo</div></div>
-    </div>
-    <div class="signature-finish"><strong>More guidance. Not more permission.</strong><p>Configuration stores the workflow, evidence rules, and stopping conditions. It does not give the assistant permission to approve, submit, or provision anything.</p></div><p class="scene-basis"><span aria-hidden="true"></span>Conceptual workflow model. Not a live architecture or security test.</p></div>
     </article>
-    <article class="scene tone-mint" id="scene-4" aria-labelledby="title-4">
-      <header class="scene-heading"><h1 id="title-4">Prepared for review is not ready to act.</h1><p>What is prepared and what remains a human action?</p></header>
-      <div class="stage"><div class="packet-scene">
-      <section class="packet-group tone-mint"><div class="packet-heading"><span class="sticker "><img src="A009_review_packet_folder.png" width="1024" height="768" alt="Open review packet folder; six document inserts are separately constructed as editable native app shapes." draggable="false"><span class="sticker-fallback" hidden>Review packet</span></span><h2>Review packet</h2></div><ol class="packet-inserts"><li>Policy guidance</li><li>14-day plan</li><li>IT access draft</li><li>Manager decision request</li><li>Gap review</li><li>Readiness brief</li></ol></section>
-      <div class="packet-stop"><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m0-6v12"/></svg><span>prepared for review</span></div><span class="sticker "><img src="A010_human_review_gate.png" width="1024" height="768" alt="Human reviewer seated at an explicit manual review checkpoint." draggable="false"><span class="sticker-fallback" hidden>Human review</span></span><strong>Human review</strong></div>
-      <section class="owners tone-blue"><ol><li><h3>PEOPLE OPERATIONS</h3><p>Reviews the packet</p></li><li><h3>MANAGER</h3><p>Decides the requested access scope</p></li><li><h3>IT</h3><p>Reviews an approved request and provisions access</p></li></ol>
-        <div class="owners-links"><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>decision required</span></div><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m-6-6 6 6-6 6"/></svg><span>only after approved request</span></div></div></section>
-    </div>
-    <div class="review-details">
-      <div><p class="definition"><strong>Review-ready:</strong> Complete enough for a named person to inspect.<br>Not proof of approval or completion.</p><p class="definition"><strong>Crawl</strong> answers. <strong>Walk</strong> prepares. <strong>Run</strong> acts in external systems. The action boundary is at human review.</p></div>
-      <div class="unevidenced tone-yellow"><span class="sticker "><img src="A011_locked_service_doors.png" width="1024" height="768" alt="Three locked service doors representing sending, approving, and provisioning outside the demo scope." draggable="false"><span class="sticker-fallback" hidden>Locked service doors</span></span><div><h2>Operational readiness</h2><div class="arrow"><svg viewBox="0 0 31 16" width="31" height="16" aria-hidden="true" focusable="false"><path d="M1 8h28m0-6v12"/></svg><span>not evidenced in this demonstration</span></div><ul><li>Submission not evidenced.</li><li>Manager approval not evidenced.</li><li>Access provisioning not evidenced.</li></ul></div></div>
-    </div>
-    <div><p class="callout wide-callout">Operational readiness remains unconfirmed until required actions are evidenced.</p></div><p class="scene-basis"><span aria-hidden="true"></span>Synthetic packet and intended handoff. No tickets, messages or accounts operated.</p></div>
+    <article class="scene simple-slide tone-blue" id="scene-3-handoff" aria-labelledby="scene-3-handoff-title">
+      <header class="scene-heading">
+        <h1 id="scene-3-handoff-title">The workflow hands off a draft</h1>
+        <p>The rules guide how the assistant uses the sources and the case.</p>
+      </header>
+      <ol class="slide-flow">
+        <li><span class="sticker"><img src="A003_policy_rulebooks.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Approved sources and case facts</span></span>
+          <h2>Approved sources and case facts</h2>
+        </li>
+        <li class="flow-arrow" aria-hidden="true"><svg viewBox="0 0 40 20" width="40" height="20" focusable="false"><path d="M2 10h34m-7-7 7 7-7 7"/></svg></li>
+        <li><span class="sticker"><img src="A009_review_packet_folder.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Drafts ready for review</span></span>
+          <h2>Drafts ready for review</h2>
+        </li>
+        <li class="flow-arrow" aria-hidden="true"><svg viewBox="0 0 40 20" width="40" height="20" focusable="false"><path d="M2 10h34m-7-7 7 7-7 7"/></svg></li>
+        <li><span class="sticker"><img src="A010_human_review_gate.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Human decision</span></span>
+          <h2>Human decision</h2>
+        </li>
+      </ol>
+      <p class="slide-takeaway">People retain authority to approve, submit, and provision access.</p>
+    </article>
+    <article class="scene simple-slide tone-mint" id="scene-4" aria-labelledby="scene-4-title">
+      <header class="scene-heading">
+        <h1 id="scene-4-title">What’s in the review packet?</h1>
+        <p>The assistant prepares six items for People Operations to review.</p>
+      </header>
+      <div class="slide-split">
+        <div class="slide-illustration"><span class="sticker"><img src="A009_review_packet_folder.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Review packet</span></span></div>
+        <ul class="slide-checklist">
+          <li>Policy guidance</li>
+          <li>14-day plan</li>
+          <li>IT access draft</li>
+          <li>Manager decision request</li>
+          <li>Gap review</li>
+          <li>Readiness brief</li>
+        </ul>
+      </div>
+      <p class="slide-takeaway">This is the Walk stage. The assistant prepares material for review.</p>
+    </article>
+    <article class="scene simple-slide tone-yellow" id="scene-4-decisions" aria-labelledby="scene-4-decisions-title">
+      <header class="scene-heading">
+        <h1 id="scene-4-decisions-title">People own the next steps</h1>
+        <p>The assistant hands off the packet for human review.</p>
+      </header>
+      <div class="slide-split">
+        <div class="slide-illustration"><span class="sticker"><img src="A010_human_review_gate.png" width="1024" height="768" alt="" draggable="false"><span class="sticker-fallback" aria-hidden="true" hidden>Human review checkpoint</span></span></div>
+        <dl class="slide-list">
+          <div><dt>People Operations</dt><dd>Reviews the packet.</dd></div>
+          <div><dt>Manager</dt><dd>Decides what access to approve.</dd></div>
+          <div><dt>IT</dt><dd>Reviews the approved request and provisions access.</dd></div>
+        </dl>
+      </div>
+      <p class="slide-takeaway">Readiness stays unconfirmed until submission, manager approval, and access provisioning are verified.</p>
     </article>
     <article class="scene tone-pink" id="scene-5" aria-labelledby="title-5">
       <header class="scene-heading"><h1 id="title-5">New input does not become new authority.</h1><p>Can a new urgent request override standing rules?</p></header>
